@@ -34,7 +34,7 @@ This will be an open edition, so no upper limit of the collection size.  but we 
 
 ### The limits
 
-If the total number of Officers > total number of Outlaws by 5% then we will place a pause on oe until there is a balance.  again app, not contract.
+If the total number of Officers > total number of Outlaws by 5% then we will put the over-bought faction in a paused state until there is a balance.  again app, not contract.
 
 ### Assurances
 
