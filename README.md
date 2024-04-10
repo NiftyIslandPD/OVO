@@ -44,7 +44,7 @@ If you place the reward in the vault, then you get a bonus but you have to show 
 
 ## The Season
 
-A "season" lasts a Month from midnight NYC time on the first until 11:59 the last day of the month.
+A "season" lasts a Month, from midnight NYC time on the first until 11:59 on the last day of the month.
 
 Leading faction / Highest Vaulted value: +10% of vaulted amount (bonus)
 Losing faction / Lower Vaulted value: -10% of vaulted amount (penalty)
