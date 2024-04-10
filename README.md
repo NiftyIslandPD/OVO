@@ -42,4 +42,13 @@ if you keep your $Loot AKA Lt in your personal wallet it is safe from all attack
 
 If you place the reward in the vault, then you get a bonus but you have to show up to protect it! and to squash the opposing faction and take their LOOT
 
+## The Season
+
+A "season" lasts a Month from midnight NYC time on the first until 11:59 the last day of the month.
+
+Leading faction / Highest Vaulted value: +10% of vaulted amount (bonus)
+Losing faction / Lower Vaulted value: -10% of vaulted amount (penalty)
+
+At the end of each season the the vault can be emptied into the wallets of the  members of the faction or they can remain vaulted.  
+
 NOTE: this is virtual/web2 ownership for now, but will be on chain in @base when we have rigorously tested our contract code.
