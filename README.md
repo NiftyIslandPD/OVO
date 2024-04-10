@@ -38,7 +38,7 @@ If the total number of Officers > total number of Outlaws by 5% then we will pla
 
 ### Assurances
 
-if you keep your $Loot AKA Lt in your personal wallet it is asfe from all attack.  you are free from wallet signing and web3 transactions.
+if you keep your $Loot AKA Lt in your personal wallet it is safe from all attack.  you are free from wallet signing and web3 transactions.
 
 If you place the reward in the vault, then you get a bonus but you have to show up to protect it! and to squash the opposing faction and take their LOOT
 
