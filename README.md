@@ -34,10 +34,12 @@ This will be an open edition, so no upper limit of the collection size.  but we 
 
 ### The limits
 
-IF the total number of Officers > total number of Outlaws by 5% then we will place a pause on oe until there is a balance.  again app, not contract.
+If the total number of Officers > total number of Outlaws by 5% then we will place a pause on oe until there is a balance.  again app, not contract.
 
 ### Assurances
 
-if you keep your $Loot AKA Lt in your personal wallet it is asfe from all attack.  you are free from wallet signing and web3 transactions.  
+if you keep your $Loot AKA Lt in your personal wallet it is asfe from all attack.  you are free from wallet signing and web3 transactions.
+
+If you place the reward in the vault, then you get a bonus but you have to show up to protect it! and to squash the opposing faction and take their LOOT
 
 NOTE: this is virtual/web2 ownership for now, but will be on chain in @base when we have rigorously tested our contract code.
