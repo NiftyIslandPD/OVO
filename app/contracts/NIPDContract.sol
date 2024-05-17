@@ -47,15 +47,17 @@ import "./Ownable.sol";
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▓▓█████▓▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
 
-contract OVOContract is Ownable, ERC721A {
+contract NIPDContract is Ownable, ERC721A {
 
-    // Open Edition.
-    uint256 public PRICE_PER_TOKEN = 0.001 ether;
+    uint256 public PRICE_PER_TOKEN = 1 ether;
+    uint256 public constant MAX_SUPPLY = 110; // just like the Nifty Island
     
     bool public mintPaused; 
-    string private _baseTokenURI = "https://nipd.xyz/ovo/data/";
+    string private _baseTokenURI = "https://nipd.xyz/badges/data/";
 
-    constructor() ERC721A("Officers vs Outlaws", "OVO") {
+    mapping(uint256 => address) public tokenOwners;
+
+    constructor() ERC721A("NIPD Badges", "NIPD") {
         mintPaused = false;
     }
 
@@ -68,6 +70,22 @@ contract OVOContract is Ownable, ERC721A {
     function setCost(uint256 _cost) public onlyOwner {
             PRICE_PER_TOKEN = _cost;
     }
+
+    /* function getTokenURI(uint256 tokenId) public returns (string memory){
+        bytes memory dataURI = abi.encodePacked(
+            '{',
+                '"name": "Chain Battles #', tokenId.toString(), '",',
+                '"description": "Battles on chain",',
+                '"image": "', generateCharacter(tokenId), '"',
+            '}'
+        );
+        return string(
+            abi.encodePacked(
+                "data:application/json;base64,",
+                Base64.encode(dataURI)
+            )
+        );
+    } */
 
     function withdraw() external onlyOwner {
         (bool success, ) = msg.sender.call{value: address(this).balance}("");

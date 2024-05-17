@@ -1,0 +1,17 @@
+PS C:\_src\nipd\OVO\app> npx hardhat test --network sepolia
+
+
+  Deploy the NIPD Officers contract...
+0x138cFE13f94Ea9bf8c18F250b61EDD29ef059E7b
+    ✔ Deploy (3344ms)
+
+  Deploy the NIPD Academy contract...
+0x59DafC852f82D9212878bF22FFD317f27455F019
+    ✔ Deploy (1927ms)
+
+  Deploy the Officers v. Outlaws contract...
+0xE3359f08fc8E1Db994f0d21E9245822c8E75999F
+    ✔ Deploy (1928ms)
+
+
+  3 passing (7s)Contact Addresses
