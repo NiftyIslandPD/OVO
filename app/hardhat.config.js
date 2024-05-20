@@ -18,15 +18,15 @@ module.exports = {
     },
     sepolia: {
       url: process.env.SEPOLIA_RPC_URL,
-      accounts: [process.env.ACTIVE_PRIVATE_KEY]
+      accounts: [process.env.PRIVATE_KEY_TEST]
     },
     amoy: {
       url: process.env.AMOY_RPC_URL,
-      accounts: [process.env.ACTIVE_PRIVATE_KEY]
+      accounts: [process.env.PRIVATE_KEY_TEST]
     }, 
     polygon:{
       url: process.env.POLYGON_RPC_URL,
-      accounts: [process.env.ACTIVE_PRIVATE_KEY]
+      accounts: [process.env.PROD_PRIVATE_KEY_VAULT]
     }
   }
 };

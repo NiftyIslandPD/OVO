@@ -71,22 +71,6 @@ contract NIPDContract is Ownable, ERC721A {
             PRICE_PER_TOKEN = _cost;
     }
 
-    /* function getTokenURI(uint256 tokenId) public returns (string memory){
-        bytes memory dataURI = abi.encodePacked(
-            '{',
-                '"name": "Chain Battles #', tokenId.toString(), '",',
-                '"description": "Battles on chain",',
-                '"image": "', generateCharacter(tokenId), '"',
-            '}'
-        );
-        return string(
-            abi.encodePacked(
-                "data:application/json;base64,",
-                Base64.encode(dataURI)
-            )
-        );
-    } */
-
     function withdraw() external onlyOwner {
         (bool success, ) = msg.sender.call{value: address(this).balance}("");
         require(success, "Transfer Failed");

@@ -14,7 +14,7 @@ describe("Deploy the NIPD Officers contract...", function () {
 });
  */
 
-describe("Deploy the NIPD Academy contract...", function () {
+/* describe("Deploy the NIPD Academy contract...", function () {
   it("Deploy", async function () {
     const nipdoe = await ethers.deployContract("NIPDAcademy");
     
@@ -23,3 +23,4 @@ describe("Deploy the NIPD Academy contract...", function () {
     console.log(contractAddress);
   });
 });
+ */
