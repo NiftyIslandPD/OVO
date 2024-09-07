@@ -2,7 +2,7 @@
 Officers versus Outlaws
 
 # Overview
-This is an NFT Collection and a corellated site. When you mint you can either be an officer or an outlaw. You cannot hold both in the same wallet. There will be more detailed mint logic and constraints outlined below. 
+This is an NFT Collection and a corellated site. When you mint you can either be an officer or an outlaw. 
 
 In the site there is a set of gaming features that pit the 2 factions against one another. 
 
